@@ -2,7 +2,12 @@
 <!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
 
 <mapper namespace="com.team.pj.book.model.BookDAO">
-    <select id="selectBook" resultType="BookVO">
+    <!--<resultMap id="bookMap" type="com.team.pj.book.model.BookVO">
+        <result property="bookNo" column="book_no"/>
+        <result property="title" column="title"/>
+    </resultMap>-->
+
+    <select id="selectBook" resultType="com.team.pj.book.model.BookVO">
         select * from book
     </select>
 </mapper>

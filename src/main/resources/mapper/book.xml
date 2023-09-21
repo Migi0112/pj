@@ -7,7 +7,7 @@
         <result property="title" column="title"/>
     </resultMap>-->
 
-    <select id="selectBook" resultType="com.team.pj.book.model.BookVO">
+    <select id="selectBook" resultType="bookVo">
         select * from book
     </select>
 </mapper>

@@ -39,6 +39,10 @@ https://templatemo.com/tm-590-topic-listing
                         <i class="bi-back"></i>
                         <span>Topic</span>
                     </a>
+                    <tr th:each="vo : ${list}">
+                        <span th:text="${vo.title}"></span>
+                    </tr>
+
 
                     <div class="d-lg-none ms-auto me-4">
                         <a href="#top" class="navbar-icon bi-person smoothscroll"></a>

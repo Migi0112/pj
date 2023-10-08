@@ -30,18 +30,4 @@ public class MainController {
         
         return "main/index";
     }
-
-    @RequestMapping("topics-detail")
-    public String topics_detail() {
-        logger.info("topics-detail 페이지");
-
-        return "topics-detail";
-    }
-
-    @RequestMapping("topics-listing")
-    public String topics_listing() {
-        logger.info("topics-listing 페이지");
-
-        return "topics-listing";
-    }
 }

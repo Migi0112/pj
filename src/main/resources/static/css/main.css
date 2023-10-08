@@ -1,27 +1,30 @@
-.header-frame > div {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
-
-.header-top {
-    padding: 0px 65px;
-    height: 68px;
+.side-div > * {
+    display: inline-block;
 }
 
 a {
     text-decoration: none;
     color: black;
+    cursor: pointer;
 }
 
-.header-basket_login {
-    width: 304px;
+a * {
+    cursor: pointer;
 }
 
-.header-title {width: auto;}
+.header-top {
+    height: 68px;
+    line-height: 68px;
+}
 
-.header-search {
-    width: 304px;
-    display: grid;
-    justify-content: end;
+input[name=keyword] {
+    border: 0;
+    border-radius: 0;
+    border-bottom: 1px solid #dadada;
+    background: transparent;
+    padding-left: 0;
+    width: 170px;
+    height: 34px;
+    font-size: 13px;
+    outline: none;
 }

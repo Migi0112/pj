@@ -1,0 +1,27 @@
+.header-frame > div {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header-top {
+    padding: 0px 65px;
+    height: 68px;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+.header-basket_login {
+    width: 304px;
+}
+
+.header-title {width: auto;}
+
+.header-search {
+    width: 304px;
+    display: grid;
+    justify-content: end;
+}

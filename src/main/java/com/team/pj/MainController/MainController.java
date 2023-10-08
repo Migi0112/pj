@@ -28,7 +28,7 @@ public class MainController {
 
         model.addAttribute("list", list);
         
-        return "main";
+        return "main/index";
     }
 
     @RequestMapping("topics-detail")

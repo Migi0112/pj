@@ -3,12 +3,37 @@
 <head>
     <meta charset="UTF-8">
     <title>뷁</title>
+    <link th:href="@{/css/bootstrap.min.css}" rel="stylesheet">
+    <link th:href="@{/css/bootstrap-icons.css}" rel="stylesheet">
+    <link th:href="@{/css/main.css}" rel="stylesheet">
+    <script th:src="@{https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js}" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
 </head>
 <body>
   <header class="main-header">
     <div class="header-frame">
       <div class="header-top">
-
+          <div class="header-basket_login">
+              <div>
+                  <div class="header-basket">
+                      <a class="head-font1">장바구니</a>
+                  </div>
+                  <div class="header-login">
+                      <a class="head-font1">로그인</a>
+                  </div>
+              </div>
+          </div>
+          <div class="header-title">
+              <div class="site-title">
+                  <a href="#" class="head-font2">주말랭이</a>
+              </div>
+          </div>
+          <div class="header-search">
+              <div class="head-search">
+                  <form name="head-search" method="post">
+                      <input name="keyword" placeholder="👀 주말에 어디로 가볼랭?" title="검색">
+                  </form>
+              </div>
+          </div>
       </div>
       <div class="header-bottom">
 

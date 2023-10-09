@@ -1,4 +1,4 @@
-.side-div > * {
+.side-div > *, .side-div {
     display: inline-block;
 }
 
@@ -10,6 +10,10 @@ a {
 
 a * {
     cursor: pointer;
+}
+
+.align-left {
+    text-align: left;
 }
 
 .header-top {
@@ -27,4 +31,18 @@ input[name=keyword] {
     height: 34px;
     font-size: 13px;
     outline: none;
+}
+
+.header-basket_login * {
+    margin-left: 20px;
+    font-size: 14px;
+}
+
+.header-basket_login {
+    margin-left: 30px;
+}
+
+a.head-font2 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 24px;
 }

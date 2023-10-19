@@ -8,8 +8,10 @@ function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <input type="text" value={text} onChange={(e) => {setText(e.target.value);}}/>
-
+        <div>
+          <input type="text" className="textInput" value={text} onChange={(e) => {setText(e.target.value);}}/>
+          <a href="" title="Button border lightblue" className="button btnFloat btnLightBlue"></a>
+        </div>
         <img src={logo} className="App-logo" alt="logo" />
         <p>
           리액트 메인화면!!

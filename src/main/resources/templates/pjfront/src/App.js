@@ -12,10 +12,7 @@ function App() {
           <input type="text" className="textInput" value={text} onChange={(e) => {setText(e.target.value);}}/>
           <a href="" title="Button border lightblue" className="button btnFloat btnLightBlue"></a>
         </div>
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          리액트 메인화면!!
-        </p>
+        <img src={logo} className="App-logo" alt="logo" />        
       </header>
     </div>
   );

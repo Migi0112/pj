@@ -37,12 +37,6 @@
   }
 }
 
-a,
-a:visited {
-  text-decoration: none;
-  color: #00AE68;
-}
-
 a.button {
   display: inline-block;
   width: 65px;
@@ -97,6 +91,8 @@ a.button {
 }
 
 input.textInput {
-  height: 20px;
+  height: 27px;
   outline-style: none;
+  font-size: 14px;
+  width: 200px;
 }
